@@ -1,6 +1,14 @@
+# provide the directory in which the UCI HAR Dataset is stored here:
+data.dir <- 'UCI HAR Dataset/'
+
+
+##############################
+## Do not change code below ##
+##############################
+
 # set working directory to where the unzipped files are
 old.dir <- getwd()
-setwd('UCI HAR Dataset/')
+setwd(data.dir)
 
 
 # 1. Merges the training and the test sets to create one data set.
