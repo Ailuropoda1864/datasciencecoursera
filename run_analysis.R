@@ -1,4 +1,4 @@
-# provide the directory in which the UCI HAR Dataset is stored here:
+# provide the directory in which the UCI HAR Dataset is stored:
 data.dir <- 'UCI HAR Dataset/'
 
 
